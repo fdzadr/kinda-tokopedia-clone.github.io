@@ -1,0 +1,276 @@
+.container-fluid {
+    padding: 8px 32px;
+}
+
+.navbar-brand {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.st {
+    position: relative;
+    font-size: 12px;
+}
+
+.sec {
+    position: relative;
+    font-size: 13px;
+}
+
+.thi {
+    position: relative;
+}
+
+.input-group {
+    width: 60%;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0;
+}
+
+.logo-cart {
+    border-right: 2px black solid;
+    padding: 0 20px 0 10px;
+}
+
+.masuk, .daftar {
+    border-radius: 7px;
+}
+
+.text-under {
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+    margin: auto;
+    width: 95%;
+    top: 200px;
+    position: relative;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
+
+.kategory-pilihan {
+  position: relative;
+  top: 250px;
+  margin: 8px 32px;
+  box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.carousel2 {
+  position: relative;
+  top: 0;
+}
+
+.card-category {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.kategory-pilihan h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.kategory-pilihan h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.kategory-pilihan h3 {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.item-menu {
+  padding: 10px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.item-menu:hover {
+  border-bottom: 2px solid #03ac0e;
+  color: #03ac0e;
+  cursor: pointer;
+}
+
+.carousel-inner2 {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.menu-scroll {
+  overflow-x: scroll;
+}
+
+.menu-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.item-scroll {
+  border-radius: 14px;
+}
+
+.st-box {
+  position: relative;
+  top: 255px;
+}
+
+@media (max-width: 767px){
+  .kategori-box .kategori > div{
+    display: none
+  }
+  
+  .kategori-box .kategori > div:first-child{
+    display: block
+}}
+
+.kategori-box .kategori.active, .kategori .carousel-item-next, .kategori .carousel-item-prev{
+  display: flex
+}
+
+@media (min-width: 768px){
+  .kategori-box .carousel-item-end.active, .kategori-box .carousel-item-next{
+    transform: translateX(25%)}
+
+  .kategori-box .carousel-item-start.active, .kategori-box .carousel-item-prev{
+      transform: translateX(-25%)}
+}
+
+.kategori-box .carousel-item-end, .kategori-box .carousel-item-start{
+  transform: translateX(0)
+}
+
+.st {
+  margin-right: 20px;
+  box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0;
+}
+
+.loc-logo {
+  width: 10%;
+}
+
+.badge {
+  width: 30%;
+}
+
+hr {
+  position: relative;
+  top: 250px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tutup {
+  width: 1000px;
+  height: 1000px;
+  top: 221.5%;
+  position: absolute;
+  background: white;
+}
+
+.wrap-affix {
+  position: absolute;
+  top: 220%;
+  padding: 8px 32px;
+}
+
+.bg-affix1 {
+  background: rgb(98, 0, 82);
+  background: rgb(98, 0, 85);
+  background: linear-gradient(
+    90deg,
+    rgb(98, 0, 98) 0%,
+    rgb(158, 82, 147) 100%
+  );
+}
+
+.bg-affix2 {
+  background: rgb(0, 98, 0);
+  background: rgb(20, 98, 0);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 98, 3) 0%,
+    rgb(82, 158, 87) 100%
+  );
+}
+
+.bg-affix3 {
+  background: rgb(18, 0, 98);
+  background: rgb(8, 0, 98);
+  background: linear-gradient(
+    90deg,
+    rgb(0, 0, 98) 0%,
+    rgb(82, 102, 158) 100%
+  );
+}
+
+.bg-affix4 {
+  background: rgb(98, 29, 0);
+  background: rgb(98, 86, 0);
+  background: linear-gradient(
+    90deg,
+    rgb(98, 42, 0) 0%,
+    rgb(158, 111, 82) 100%
+  );
+}
+
+.box-affix {
+  display: inline-block;
+  width: 216px;
+  height: 64px;
+  padding: 6px 8px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.line1 {
+  background-color: #fff;
+  height: 4px;
+  width: 40px;
+}
+
+.card {
+  box-shadow: rgba(49, 53, 59, 0.12) 0px 1px 6px 0px;
+  border-radius: 12px;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.affix {
+  width: 100%;
+  background-color: white;
+  top: 110px;
+  z-index: 9999999;
+  left: 0;
+  height: 76px;
+  padding-left: 32px;
+}
+
+.btn-green {
+  color: #03ac0e;
+  border: 1px solid #03ac0e;
+  background-color: transparent;
+  padding: 10px 70px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  width: 30%;
+}
+
+.foot {
+  position: absolute;
+  width: 95%;
+  margin-left: 3%;
+  top: 475%;
+}
